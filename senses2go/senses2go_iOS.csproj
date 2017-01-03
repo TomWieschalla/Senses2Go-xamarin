@@ -6,7 +6,7 @@
     <ProjectGuid>{2FF0A908-6301-4306-8221-405F8F269BF6}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>senses2go</RootNamespace>
+    <RootNamespace>senses2go_iOS</RootNamespace>
     <AssemblyName>senses2go</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
