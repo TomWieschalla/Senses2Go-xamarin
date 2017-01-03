@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "senses2go_iOS", "senses2go\senses2go_iOS.csproj", "{2FF0A908-6301-4306-8221-405F8F269BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "senses2go_android", "senses2go_android\senses2go_android.csproj", "{33D3C2AD-252B-4471-B962-5A7318D22C5A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "sensesAPI", "sensesAPI\sensesAPI.shproj", "{918C023A-1525-41BA-9E65-60E26E9F51F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FF0A908-6301-4306-8221-405F8F269BF6}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{2FF0A908-6301-4306-8221-405F8F269BF6}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{2FF0A908-6301-4306-8221-405F8F269BF6}.Release|iPhone.ActiveCfg = Release|iPhone
+		{2FF0A908-6301-4306-8221-405F8F269BF6}.Release|iPhone.Build.0 = Release|iPhone
+		{2FF0A908-6301-4306-8221-405F8F269BF6}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{2FF0A908-6301-4306-8221-405F8F269BF6}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{2FF0A908-6301-4306-8221-405F8F269BF6}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{2FF0A908-6301-4306-8221-405F8F269BF6}.Debug|iPhone.Build.0 = Debug|iPhone
+		{33D3C2AD-252B-4471-B962-5A7318D22C5A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{33D3C2AD-252B-4471-B962-5A7318D22C5A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{33D3C2AD-252B-4471-B962-5A7318D22C5A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{33D3C2AD-252B-4471-B962-5A7318D22C5A}.Release|iPhone.Build.0 = Release|Any CPU
+		{33D3C2AD-252B-4471-B962-5A7318D22C5A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{33D3C2AD-252B-4471-B962-5A7318D22C5A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{33D3C2AD-252B-4471-B962-5A7318D22C5A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{33D3C2AD-252B-4471-B962-5A7318D22C5A}.Debug|iPhone.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
