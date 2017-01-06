@@ -174,5 +174,6 @@
       <DependentUpon>SoundViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
+  <Import Project="..\sensesAPI\sensesAPI.projitems" Label="Shared" Condition="Exists('..\sensesAPI\sensesAPI.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -1,4 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-	<Button android:id="@+id/myButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hello" />
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <Button
+        p1:text="GPS"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/gpsButton"
+        p1:clickable="true"
+        p1:capitalize="none"
+        p1:linksClickable="true"
+        p1:textAllCaps="false"
+        p1:autoText="true"
+        p1:layout_marginTop="10dp"
+        p1:textColor="#ffffffff" />
+    <Button
+        p1:text="Gyroskop"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/gyroButton"
+        p1:textAllCaps="false"
+        p1:maxHeight="50dp"
+        p1:height="50dp" />
+    <Button
+        p1:text="Magnetometer"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/magnoButton"
+        p1:textAllCaps="false" />
+    <Button
+        p1:text="Beschleunigung"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/accButton"
+        p1:textAllCaps="false" />
+    <Button
+        p1:text="Entfernung"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/proxButton"
+        p1:textAllCaps="false" />
+    <Button
+        p1:text="Luftdruck"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/pressureButton"
+        p1:textAllCaps="false"
+        p1:layout_marginTop="30dp" />
+    <Button
+        p1:text="Umgebungslicht"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/lightButton"
+        p1:textAllCaps="false" />
+    <Button
+        p1:text="Kamera"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/cameraButton"
+        p1:textAllCaps="false" />
+    <Button
+        p1:text="Lautsprecher"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/soundButton"
+        p1:textAllCaps="false" />
+    <Button
+        p1:text="Mikrofon"
+        p1:layout_width="match_parent"
+        p1:layout_height="50dp"
+        p1:id="@+id/microButton"
+        p1:textAllCaps="false" />
 </LinearLayout>

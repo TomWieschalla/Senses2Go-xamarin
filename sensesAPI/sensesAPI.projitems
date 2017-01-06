@@ -8,4 +8,11 @@
   <PropertyGroup Label="Configuration">
     <Import_RootNamespace>sensesAPI</Import_RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GPS\LocationUpdatedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GPS\LocationManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)GPS\" />
+  </ItemGroup>
 </Project>
