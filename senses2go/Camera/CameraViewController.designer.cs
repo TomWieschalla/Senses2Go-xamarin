@@ -11,8 +11,8 @@ using UIKit;
 
 namespace senses2go
 {
-    [Register ("GPSViewController")]
-    partial class GPSViewController
+    [Register ("CameraViewController")]
+    partial class CameraViewController
     {
         void ReleaseDesignerOutlets ()
         {

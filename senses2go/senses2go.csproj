@@ -6,7 +6,7 @@
     <ProjectGuid>{2FF0A908-6301-4306-8221-405F8F269BF6}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>senses2go_iOS</RootNamespace>
+    <RootNamespace>senses2go</RootNamespace>
     <AssemblyName>senses2go</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
@@ -99,11 +99,28 @@
     <Folder Include="Resources\" />
     <Folder Include="GPS\" />
     <Folder Include="Gyro\" />
+    <Folder Include="Magno\" />
+    <Folder Include="Acceleration\" />
+    <Folder Include="Proximity\" />
+    <Folder Include="Airpressure\" />
+    <Folder Include="Lightintensity\" />
+    <Folder Include="Camera\" />
+    <Folder Include="Sound\" />
+    <Folder Include="Micro\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Acceleration\AccViewController.xib" />
+    <InterfaceDefinition Include="Airpressure\PressureViewController.xib" />
+    <InterfaceDefinition Include="Camera\CameraViewController.xib" />
     <InterfaceDefinition Include="GPS\GPSViewController.xib" />
+    <InterfaceDefinition Include="Gyro\GyroViewController.xib" />
+    <InterfaceDefinition Include="Lightintensity\LightViewController.xib" />
+    <InterfaceDefinition Include="Magno\MagnoViewController.xib" />
+    <InterfaceDefinition Include="Micro\MicroViewController.xib" />
+    <InterfaceDefinition Include="Proximity\ProxViewController.xib" />
+    <InterfaceDefinition Include="Sound\SoundViewController.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -116,13 +133,45 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Acceleration\AccViewController.cs" />
+    <Compile Include="Acceleration\AccViewController.designer.cs">
+      <DependentUpon>AccViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Airpressure\PressureViewController.cs" />
+    <Compile Include="Airpressure\PressureViewController.designer.cs">
+      <DependentUpon>PressureViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Camera\CameraViewController.cs" />
+    <Compile Include="Camera\CameraViewController.designer.cs">
+      <DependentUpon>CameraViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="GPS\GPSViewController.cs" />
     <Compile Include="GPS\GPSViewController.designer.cs">
       <DependentUpon>GPSViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainViewController.cs" />
-    <Compile Include="MainViewController.designer.cs">
-      <DependentUpon>MainViewController.cs</DependentUpon>
+    <Compile Include="Gyro\GyroViewController.cs" />
+    <Compile Include="Gyro\GyroViewController.designer.cs">
+      <DependentUpon>GyroViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lightintensity\LightViewController.cs" />
+    <Compile Include="Lightintensity\LightViewController.designer.cs">
+      <DependentUpon>LightViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Magno\MagnoViewController.cs" />
+    <Compile Include="Magno\MagnoViewController.designer.cs">
+      <DependentUpon>MagnoViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Micro\MicroViewController.cs" />
+    <Compile Include="Micro\MicroViewController.designer.cs">
+      <DependentUpon>MicroViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proximity\ProxViewController.cs" />
+    <Compile Include="Proximity\ProxViewController.designer.cs">
+      <DependentUpon>ProxViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sound\SoundViewController.cs" />
+    <Compile Include="Sound\SoundViewController.designer.cs">
+      <DependentUpon>SoundViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

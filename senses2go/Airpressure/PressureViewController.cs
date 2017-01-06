@@ -4,16 +4,16 @@ using UIKit;
 
 namespace senses2go
 {
-	public partial class GPSViewController : UIViewController
+	public partial class PressureViewController : UIViewController
 	{
-		public GPSViewController() : base("GPSViewController", null)
+		public PressureViewController() : base("PressureViewController", null)
 		{
 		}
 
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-			// Perform any additional setup after loading the view, typically from a nib.
+			base.Title = "Luftdruck";
 		}
 
 		public override void DidReceiveMemoryWarning()

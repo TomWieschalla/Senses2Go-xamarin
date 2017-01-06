@@ -11,8 +11,11 @@ using UIKit;
 
 namespace senses2go
 {
-    [Register ("MainViewController")]
-    partial class MainViewController
+    [Register ("ProxViewController")]
+    partial class ProxViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }
