@@ -401,8 +401,8 @@ namespace senses2go_android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090019
-			public const int accButton = 2131296281;
+			// aapt resource value: 0x7f09001a
+			public const int accButton = 2131296282;
 			
 			// aapt resource value: 0x7f09000b
 			public const int adjust_height = 2131296267;
@@ -416,26 +416,26 @@ namespace senses2go_android
 			// aapt resource value: 0x7f090014
 			public const int button1 = 2131296276;
 			
-			// aapt resource value: 0x7f090020
-			public const int button2 = 2131296288;
-			
 			// aapt resource value: 0x7f090021
-			public const int button3 = 2131296289;
+			public const int button2 = 2131296289;
 			
 			// aapt resource value: 0x7f090022
-			public const int button4 = 2131296290;
+			public const int button3 = 2131296290;
 			
-			// aapt resource value: 0x7f09001d
-			public const int cameraButton = 2131296285;
+			// aapt resource value: 0x7f090023
+			public const int button4 = 2131296291;
+			
+			// aapt resource value: 0x7f09001e
+			public const int cameraButton = 2131296286;
 			
 			// aapt resource value: 0x7f090009
 			public const int dark = 2131296265;
 			
-			// aapt resource value: 0x7f090016
-			public const int gpsButton = 2131296278;
-			
 			// aapt resource value: 0x7f090017
-			public const int gyroButton = 2131296279;
+			public const int gpsButton = 2131296279;
+			
+			// aapt resource value: 0x7f090018
+			public const int gyroButton = 2131296280;
 			
 			// aapt resource value: 0x7f090000
 			public const int hybrid = 2131296256;
@@ -449,17 +449,20 @@ namespace senses2go_android
 			// aapt resource value: 0x7f09000a
 			public const int light = 2131296266;
 			
-			// aapt resource value: 0x7f09001c
-			public const int lightButton = 2131296284;
+			// aapt resource value: 0x7f09001d
+			public const int lightButton = 2131296285;
+			
+			// aapt resource value: 0x7f090016
+			public const int linearLayout1 = 2131296278;
+			
+			// aapt resource value: 0x7f090019
+			public const int magnoButton = 2131296281;
 			
 			// aapt resource value: 0x7f090015
-			public const int linearLayout1 = 2131296277;
+			public const int mapView = 2131296277;
 			
-			// aapt resource value: 0x7f090018
-			public const int magnoButton = 2131296280;
-			
-			// aapt resource value: 0x7f09001f
-			public const int microButton = 2131296287;
+			// aapt resource value: 0x7f090020
+			public const int microButton = 2131296288;
 			
 			// aapt resource value: 0x7f090001
 			public const int none = 2131296257;
@@ -467,41 +470,41 @@ namespace senses2go_android
 			// aapt resource value: 0x7f090002
 			public const int normal = 2131296258;
 			
-			// aapt resource value: 0x7f090025
-			public const int place_autocomplete_clear_button = 2131296293;
-			
-			// aapt resource value: 0x7f090027
-			public const int place_autocomplete_powered_by_google = 2131296295;
-			
-			// aapt resource value: 0x7f090029
-			public const int place_autocomplete_prediction_primary_text = 2131296297;
-			
-			// aapt resource value: 0x7f09002a
-			public const int place_autocomplete_prediction_secondary_text = 2131296298;
+			// aapt resource value: 0x7f090026
+			public const int place_autocomplete_clear_button = 2131296294;
 			
 			// aapt resource value: 0x7f090028
-			public const int place_autocomplete_progress = 2131296296;
+			public const int place_autocomplete_powered_by_google = 2131296296;
 			
-			// aapt resource value: 0x7f090023
-			public const int place_autocomplete_search_button = 2131296291;
+			// aapt resource value: 0x7f09002a
+			public const int place_autocomplete_prediction_primary_text = 2131296298;
+			
+			// aapt resource value: 0x7f09002b
+			public const int place_autocomplete_prediction_secondary_text = 2131296299;
+			
+			// aapt resource value: 0x7f090029
+			public const int place_autocomplete_progress = 2131296297;
 			
 			// aapt resource value: 0x7f090024
-			public const int place_autocomplete_search_input = 2131296292;
+			public const int place_autocomplete_search_button = 2131296292;
 			
-			// aapt resource value: 0x7f090026
-			public const int place_autocomplete_separator = 2131296294;
+			// aapt resource value: 0x7f090025
+			public const int place_autocomplete_search_input = 2131296293;
+			
+			// aapt resource value: 0x7f090027
+			public const int place_autocomplete_separator = 2131296295;
+			
+			// aapt resource value: 0x7f09001c
+			public const int pressureButton = 2131296284;
 			
 			// aapt resource value: 0x7f09001b
-			public const int pressureButton = 2131296283;
-			
-			// aapt resource value: 0x7f09001a
-			public const int proxButton = 2131296282;
+			public const int proxButton = 2131296283;
 			
 			// aapt resource value: 0x7f090003
 			public const int satellite = 2131296259;
 			
-			// aapt resource value: 0x7f09001e
-			public const int soundButton = 2131296286;
+			// aapt resource value: 0x7f09001f
+			public const int soundButton = 2131296287;
 			
 			// aapt resource value: 0x7f090006
 			public const int standard = 2131296262;

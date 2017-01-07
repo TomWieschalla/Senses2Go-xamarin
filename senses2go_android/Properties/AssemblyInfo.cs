@@ -15,7 +15,7 @@ using Android.App;
 [assembly: AssemblyCulture("")]
 [assembly: UsesPermission(Android.Manifest.Permission.AccessFineLocation)]
 [assembly: UsesPermission(Android.Manifest.Permission.AccessCoarseLocation)]
-[assembly: MetaData("com.google.android.maps.v2.API_KEY", Value = "AIzaSyDpalyzShf2bdCwNcwxPK3B73qMYczqY5Q")]
+[assembly: MetaData("com.google.android.geo.API_KEY", Value = "AIzaSyDz4uiNtM56KL8ChOU2yLEEgg17aqIDX3U")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
