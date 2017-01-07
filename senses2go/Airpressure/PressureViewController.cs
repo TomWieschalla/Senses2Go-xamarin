@@ -1,6 +1,8 @@
 ﻿using System;
 
 using UIKit;
+using CoreMotion;
+using Foundation;
 
 namespace senses2go
 {
@@ -14,6 +16,22 @@ namespace senses2go
 		{
 			base.ViewDidLoad();
 			base.Title = "Luftdruck";
+			if (CMAltimeter.IsRelativeAltitudeAvailable)
+			{
+				var altimeter = new CMAltimeter();
+				altimeter.StartRelativeAltitudeUpdates(NSOperationQueue.CurrentQueue, (arg1, arg2) =>
+				{
+					this.label1.Text = "" + arg1.Pressure;
+					this.label2.Text = "" + arg1.RelativeAltitude;
+				});
+			}
+			else {
+				this.imageView.Hidden = false;
+				this.label0.Hidden = true;
+				this.label1.Hidden = true;
+				this.label12.Hidden = true;
+				this.label2.Hidden = true;
+			}
 		}
 
 		public override void DidReceiveMemoryWarning()

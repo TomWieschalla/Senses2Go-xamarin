@@ -1,11 +1,15 @@
 ﻿using System;
 
 using UIKit;
+using CoreMotion;
+using Foundation;
 
 namespace senses2go
 {
 	public partial class AccViewController : UIViewController
 	{
+		CMMotionManager motionManager;
+
 		public AccViewController() : base("AccViewController", null)
 		{
 		}
@@ -14,6 +18,14 @@ namespace senses2go
 		{
 			base.ViewDidLoad();
 			base.Title = "Beschleunigung";
+
+			motionManager = new CMMotionManager();
+			motionManager.StartAccelerometerUpdates(NSOperationQueue.CurrentQueue, (data, error) =>
+		   {
+				this.label1.Text = "" + data.Acceleration.X;
+				this.label2.Text = "" + data.Acceleration.Y;
+				this.label3.Text = "" + data.Acceleration.Z;
+		   });
 		}
 
 		public override void DidReceiveMemoryWarning()

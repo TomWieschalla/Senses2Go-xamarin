@@ -1,11 +1,15 @@
 ﻿using System;
 
 using UIKit;
+using CoreMotion;
+using Foundation;
 
 namespace senses2go
 {
 	public partial class MagnoViewController : UIViewController
 	{
+		CMMotionManager motionManager;
+
 		public MagnoViewController() : base("MagnoViewController", null)
 		{
 		}
@@ -14,8 +18,13 @@ namespace senses2go
 		{
 			base.ViewDidLoad();
 			base.Title = "Erdfeldstärke";
-			// Perform any additional setup after loading the view, typically from a nib.
-		}
+			motionManager = new CMMotionManager();
+			motionManager.StartMagnetometerUpdates(NSOperationQueue.CurrentQueue, (data, error) =>
+		   {
+				this.label1.Text = "" + data.MagneticField.X;
+				this.label2.Text = "" + data.MagneticField.Y;
+				this.label3.Text = "" + data.MagneticField.Z;
+		   });		}
 
 		public override void DidReceiveMemoryWarning()
 		{

@@ -1,6 +1,7 @@
 ﻿using System;
 
 using UIKit;
+using Foundation;
 
 namespace senses2go
 {
@@ -14,13 +15,31 @@ namespace senses2go
 		{
 			base.ViewDidLoad();
 			base.Title = "Entfernung";
-			// Perform any additional setup after loading the view, typically from a nib.
+			var device = UIDevice.CurrentDevice;
+			/*device.ProximityMonitoringEnabled = true;
+			if (device.ProximityMonitoringEnabled)
+			{*/
+				NSNotificationCenter.DefaultCenter.AddObserver(UIDevice.ProximityStateDidChangeNotification, (NSNotification obj) =>
+				 {
+					device = (UIDevice) obj.Object;
+					 if (device.ProximityState)
+					 {
+						base.View.BackgroundColor = UIColor.Red;
+					 }
+					 else 
+					 {
+						 base.View.BackgroundColor = UIColor.White;
+					 }
+						
+				}, device);
+			//}
 		}
 
-		public override void DidReceiveMemoryWarning()
+		public override void ViewWillDisappear(bool animated)
 		{
-			base.DidReceiveMemoryWarning();
-			// Release any cached data, images, etc that aren't in use.
+			base.ViewWillDisappear(animated);
+			var device = UIDevice.CurrentDevice;
+			device.ProximityMonitoringEnabled = false;
 		}
 	}
 }

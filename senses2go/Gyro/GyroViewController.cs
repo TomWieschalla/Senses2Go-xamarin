@@ -1,11 +1,15 @@
 ﻿using System;
 
 using UIKit;
+using CoreMotion;
+using Foundation;
 
 namespace senses2go
 {
 	public partial class GyroViewController : UIViewController
 	{
+		CMMotionManager motionManager;
+
 		public GyroViewController() : base("GyroViewController", null)
 		{
 		}
@@ -14,7 +18,14 @@ namespace senses2go
 		{
 			base.ViewDidLoad();
 			base.Title = "Rotation";
-			// Perform any additional setup after loading the view, typically from a nib.
+
+			motionManager = new CMMotionManager();
+			motionManager.StartGyroUpdates(NSOperationQueue.CurrentQueue, (data, error) =>
+		   {
+				this.label1.Text = "" + data.RotationRate.x;
+			   this.label2.Text = "" + data.RotationRate.y;
+			   this.label3.Text = "" + data.RotationRate.z;
+		   });
 		}
 
 		public override void DidReceiveMemoryWarning()
