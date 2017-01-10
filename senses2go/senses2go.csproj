@@ -114,6 +114,8 @@
     <ImageAsset Include="Assets.xcassets\Contents.json" />
     <ImageAsset Include="Assets.xcassets\nonexist.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\nonexist.imageset\nonexistent2.png" />
+    <ImageAsset Include="Assets.xcassets\micro.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\micro.imageset\Micro_50.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -128,6 +130,8 @@
     <Folder Include="Sound\" />
     <Folder Include="Micro\" />
     <Folder Include="Assets.xcassets\nonexist.imageset\" />
+    <Folder Include="Sound\sounds\" />
+    <Folder Include="Assets.xcassets\micro.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -195,6 +199,9 @@
     <Compile Include="Sound\SoundViewController.designer.cs">
       <DependentUpon>SoundViewController.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sound\sounds\guitar.mp3" />
   </ItemGroup>
   <Import Project="..\sensesAPI\sensesAPI.projitems" Label="Shared" Condition="Exists('..\sensesAPI\sensesAPI.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -38,6 +38,7 @@
 	<array>
 		<string>audio</string>
 		<string>location</string>
+		<string>bluetooth-central</string>
 	</array>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>true</string>
@@ -45,5 +46,9 @@
 	<string>This app needs access to the camera to take photos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app needs access to photos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>App recording voice</string>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>Media Library</string>
 </dict>
 </plist>

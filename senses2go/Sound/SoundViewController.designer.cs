@@ -14,8 +14,20 @@ namespace senses2go
     [Register ("SoundViewController")]
     partial class SoundViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton playButton { get; set; }
+
+        [Action ("play:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void play (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
+            if (playButton != null) {
+                playButton.Dispose ();
+                playButton = null;
+            }
         }
     }
 }

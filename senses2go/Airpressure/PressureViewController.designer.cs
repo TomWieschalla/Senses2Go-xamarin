@@ -26,14 +26,6 @@ namespace senses2go
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel label1 { get; set; }
 
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel label12 { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel label2 { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
             if (imageView != null) {
@@ -49,16 +41,6 @@ namespace senses2go
             if (label1 != null) {
                 label1.Dispose ();
                 label1 = null;
-            }
-
-            if (label12 != null) {
-                label12.Dispose ();
-                label12 = null;
-            }
-
-            if (label2 != null) {
-                label2.Dispose ();
-                label2 = null;
             }
         }
     }

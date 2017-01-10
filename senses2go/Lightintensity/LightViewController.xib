@@ -17,11 +17,11 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="9" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="nonexist">
-                    <rect key="frame" x="20" y="73" width="280" height="296"/>
+                    <rect key="frame" x="48" y="93" width="280" height="296"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="3" text="Die Schnittstelle für diesen Sensor wurde für Entwickler nicht freigegeben.">
-                    <rect key="frame" x="20" y="400" width="280" height="60"/>
+                    <rect key="frame" x="0.0" y="447" width="375" height="117"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <nil key="textColor"/>
@@ -31,7 +31,7 @@
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination" type="retina47"/>
     </simulatedMetricsContainer>
     <resources>
         <image name="nonexist" width="512" height="512"/>
