@@ -98,9 +98,11 @@
     <AndroidResource Include="Resources\layout\Camera.axml" />
     <AndroidResource Include="Resources\layout\Sound.axml" />
     <AndroidResource Include="Resources\layout\Micro.axml" />
+    <AndroidResource Include="Resources\raw\guitar.mp3" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\raw\" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="googleplayservices-location">

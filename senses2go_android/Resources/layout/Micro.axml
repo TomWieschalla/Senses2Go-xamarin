@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
-    p1:orientation="horizontal"
+    p1:orientation="vertical"
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
     p1:id="@+id/linearLayout1">
     <Button
-        p1:text="Record"
-        p1:layout_width="95dp"
-        p1:layout_height="75dp"
-        p1:id="@+id/button1"
-        p1:layout_marginLeft="2.5dp"
-        p1:layout_marginTop="250dp" />
+        p1:text="Start Record"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/button1" />
     <Button
-        p1:text="Stop Rec"
-        p1:layout_width="95dp"
-        p1:layout_height="75dp"
-        p1:id="@+id/button2"
-        p1:layout_marginTop="250dp" />
-    <Button
-        p1:text="Play Rec"
-        p1:layout_width="95dp"
-        p1:layout_height="75dp"
-        p1:id="@+id/button3"
-        p1:layout_marginTop="250dp" />
-    <Button
-        p1:text="Stop Play"
-        p1:layout_width="95dp"
-        p1:layout_height="75dp"
-        p1:id="@+id/button4"
-        p1:layout_marginTop="250dp"
-        p1:textSize="13.5dp" />
+        p1:text="Play Record"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/button2" />
 </LinearLayout>
