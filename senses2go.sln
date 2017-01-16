@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "senses2go", "senses2go\senses2go.csproj", "{2FF0A908-6301-4306-8221-405F8F269BF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senses2go_Xa", "senses2go\Senses2go_Xa.csproj", "{2FF0A908-6301-4306-8221-405F8F269BF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "senses2go_android", "senses2go_android\senses2go_android.csproj", "{33D3C2AD-252B-4471-B962-5A7318D22C5A}"
 EndProject

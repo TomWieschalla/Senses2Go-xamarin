@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace senses2go_android
 {
-	[Activity(Label = "Senses2Go", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity(Label = "Senses2Go_Xa", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 

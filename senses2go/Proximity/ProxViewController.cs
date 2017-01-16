@@ -16,9 +16,9 @@ namespace senses2go
 			base.ViewDidLoad();
 			base.Title = "Entfernung";
 			var device = UIDevice.CurrentDevice;
-			/*device.ProximityMonitoringEnabled = true;
+			device.ProximityMonitoringEnabled = true;
 			if (device.ProximityMonitoringEnabled)
-			{*/
+			{
 				NSNotificationCenter.DefaultCenter.AddObserver(UIDevice.ProximityStateDidChangeNotification, (NSNotification obj) =>
 				 {
 					device = (UIDevice) obj.Object;
@@ -32,7 +32,7 @@ namespace senses2go
 					 }
 						
 				}, device);
-			//}
+			}
 		}
 
 		public override void ViewWillDisappear(bool animated)

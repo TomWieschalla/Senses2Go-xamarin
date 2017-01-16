@@ -21,6 +21,12 @@ namespace senses2go
 			base.Title = "Lautsprecher";
 		}
 
+		public override void ViewWillDisappear(Boolean animated)
+		{
+			base.ViewWillDisappear(animated);
+			player.Stop();
+		}	
+
 		partial void play(UIButton sender)
 		{
 			if (player != null && player.Playing)
